@@ -34,7 +34,7 @@ nav{
     text-decoration: none;
     color: white;
     padding: 5px 0;
-    font-size: 23px;
+    font-size: 15px;
     position: relative;
 }
 .nav-links li a::after{
