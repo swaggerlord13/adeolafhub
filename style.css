@@ -4,12 +4,6 @@ body{
     background-size: cover;
     background-color: black;
 }
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    box-sizing: border-box;
-}
 .logo{
     padding-top: 20px;
     width: 200px;
@@ -66,6 +60,6 @@ nav{
     padding: 10px;
     border: 1px solid wheat;
     border-style: dotted;
-    width: 33%;
+    width: 32%;
     text-align: center;
 }
