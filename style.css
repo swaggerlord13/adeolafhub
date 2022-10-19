@@ -1,0 +1,68 @@
+body{
+    background-image: url("woman-97088.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-color: black;
+    margin: auto;
+
+}
+.logo{
+    padding-top: 20px;
+    width: 200px;
+    border-radius: 50%;
+}
+.header{
+    padding: 0 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links{
+    padding: 28.0px;
+}
+.nav-links li{
+    display: inline-block;
+    margin:0 15px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 0;
+    font-size: 23px;
+    position: relative;
+}
+.nav-links li a::after{
+    content: '';
+    background:indigo;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+.nav-links li a:hover::after{
+    width: 100%;
+}
+.btn{
+    background-color: indigo;
+    color: gold;
+    padding: 10px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 23px;
+}
+.container{
+    padding: 25px;
+
+}
+.container a img{
+    padding: 10px;
+    width: 32%;
+    height: auto; 
+    max-width: 100%;
+    height: auto;
+
+}
