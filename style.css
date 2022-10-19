@@ -58,8 +58,6 @@ nav{
 }
 .container a img{
     padding: 10px;
-    border: 1px solid wheat;
-    border-style: dotted;
     width: 32%;
-    text-align: center;
+   
 }
