@@ -76,7 +76,7 @@ nav{
     display: none;
 }
 
-@media (max-wdith: 952px){
+@media (max-width: 952px){
     label.logo{
        font-size: 30px;
        
